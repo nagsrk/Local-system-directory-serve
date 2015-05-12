@@ -1,0 +1,11 @@
+Put your HTML templates in this directory
+
+1) base.html
+2) login.html
+3) register.html
+4) logout.html
+5) password_change.html
+
+etc… 
+
+All the templates for the project should be placed in this directory
