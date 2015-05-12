@@ -7,4 +7,4 @@ So, for example if you are to serve/distribute thousands of logs to users,
 simply filter the data and redirect the users to specific directory. 
 So no hassles of maintaining a Database for randomly generated data like logs. Simply map the user to a directory.
 
-The file at /Local-system-directory-serve/app/lib/EditRsyslog.py will filter and create directories based on the IP address of incoming logs and the 'App' uses the configuration file generated to serve based on the user and directory.
+The file at /Local-system-directory-serve/app/lib/EditRsyslog.py filters the incoming logs and creates directories based on the IP address. The files in the 'App' directory uses the configuration file generated to serve user files based on the user and directory after authentication.
